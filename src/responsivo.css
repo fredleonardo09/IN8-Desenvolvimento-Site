@@ -1,0 +1,176 @@
+@media (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-list {
+    width: 150px;
+    height: 110px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+    background-color: #29abe2;
+    font-size: 15px;
+    padding-top: 37px;
+    float: right;
+    
+  }
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+  #header {
+    background: url("/src/img/index-image-mobile.jpg") no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+  }
+  header h1 {
+    font-family: "Helvetica 25 UltraLight";
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+  }
+  h1 span {
+    font-size: 80px;
+  }
+  
+  footer {
+    background: url("/src/img/rodape-mobile.jpg") no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+  }
+
+  form h1 {
+    color: #fff;
+    font-family: "Helvetica 25 UltraLight";
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 50px;
+  }
+
+  .form-group {
+    position: relative;
+    display: block;
+    margin-bottom: 48px;
+  }
+  .form-group span {
+    font-size: 25px;
+    color: #fff;
+    top: -20px;
+    transition: all 0.2s ease;
+    transform-origin: 0 0;
+    cursor: text;
+  }
+  .form-group span.border {
+    height: 2px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 41px;
+    transition: all 0.15s ease;
+  }
+
+  .form-control {
+    border: none;
+    display: block;
+    width: 300px;
+    height: 43px;
+    color: #fff;
+    font-size: 18px;
+    background: none;
+    font-family: "Helvetica Condensed Regular";
+    background-color: #29abe2;
+  }
+
+  #button {
+    width: 250px;
+    height: 80px;
+    background-color: #012d51;
+    color: #29abe2;
+    font-family: "Helvetica 25 UltraLight Regular";
+    font-size: 30px;
+    border-radius: 0px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #29abe2;
+    table-layout: fixed;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table td {
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #29abe2;
+    color: #808080;
+    font-family: "Helvetica Condensed Regular";
+    font-size: 15px;
+    display: flex;
+    text-align: center;
+  }
+  table th {
+    border: 1px solid #29abe2;
+    font-family: "Roboto Regular";
+    color: #012d51;
+    font-size: 15px;
+  }
+  .mobile-hide {
+    display: inline !important;
+  }
+
+  .table-responsive-md {
+    display: none !important;
+  }
+
+  #titulos-table {
+    color: #012d51;
+    font-family: "Roboto Regular";
+    text-transform: uppercase;
+    margin: 3px;
+    display: flex;
+    text-align: center;
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .mobile-menu.active .line1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+
+  .mobile-menu.active .line2 {
+    opacity: 0;
+  }
+
+  .mobile-menu.active .line3 {
+    transform: rotate(45deg) translate(-5px, -7px);
+  }
+
+  footer p {
+    font-size: 15px;
+    margin-top: 150px;
+  }
+
+
+}

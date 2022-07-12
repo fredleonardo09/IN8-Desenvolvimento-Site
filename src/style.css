@@ -1,0 +1,236 @@
+@font-face {
+  font-family: "Helvetica 25 UltraLight";
+  src: url("../src/Fonts/HelveticaUltraLt_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ps";
+  src: url("../src/Fonts/ps.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Light";
+  src: url("../src/Fonts/Roboto-Light_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url("../src/Fonts/Roboto-Regular_0.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  text-decoration: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+header h1 {
+  font-family: "Helvetica 25 UltraLight";
+  color: #fff;
+  text-transform: uppercase;
+  margin: 180px;
+  font-size: 35px;
+}
+
+h1 span {
+  font-size: 80px;
+}
+
+header #titulo {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background-color: transparent;
+  height: 8vh;
+}
+
+#header {
+  background: url("/src/img/index-image.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-list {
+  color: #fff;
+  display: flex;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+  
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+  
+}
+.nav-list.active {
+  transform: translateX(0);
+  
+}
+
+#cadastro {
+  background-color: #29abe2;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+form h1 {
+  color: #fff;
+  font-family: "Helvetica 25 UltraLight";
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.form-group input,
+textarea,
+select {
+  font-family: "Roboto Regular";
+  color: #fff;
+  font-size: 15px;
+  background-color: #29abe2;
+}
+
+.form-group {
+  position: relative;
+  display: block;
+  margin-bottom: 48px;
+}
+.form-group span {
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  top: 11px;
+  transition: all 0.2s ease;
+  transform-origin: 0 0;
+  cursor: text;
+}
+
+
+.form-control {
+  border: none;
+  display: block;
+  width: 450px;
+  height: 43px;
+  color: #fff;
+  font-size: 15px;
+  background: none;
+  font-family: "Helvetica Condensed Regular";
+  background-color: #29abe2;
+}
+.form-control:focus,
+.form-control:valid {
+  border-bottom: 2px solid #fff;
+}
+.form-control:focus + span,
+.form-control:valid + span {
+  transform: translateY(-25px) scale(0.8);
+}
+
+textarea.form-control {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#button {
+  width: 150px;
+  height: 40px;
+  background-color: #012d51;
+  color: #29abe2;
+  font-family: "Helvetica 25 UltraLight Regular";
+  border-radius: 0px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+#cadastro-site {
+  background-color: #fff;
+}
+
+#cadastro-site h1 {
+  font-family: "Helvetica 25 UltraLight";
+  color: #29abe2;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-style: hidden;
+}
+table td {
+  padding: 0.5rem;
+  border: 1px solid #29abe2;
+  color: #808080;
+  font-family: "Helvetica Condensed Regular";
+}
+table th {
+  padding: 0.5rem;
+  border: 1px solid #29abe2;
+  font-family: "Roboto Regular";
+  color: #012d51;
+}
+
+.mobile-hide {
+  display: none;
+}
+footer {
+  background: url("/src/img/rodape-desktop.jpg") no-repeat center center;
+  background-size: cover;
+  
+}
+footer p {
+  font-family: "Roboto Light";
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 10px;
+  line-height: 20px;
+  height: 100px;
+}

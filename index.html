@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/responsivo.css">
+
+    <title>IN8DEV</title>
+</head>
+<body>
+<!--CABEÇALHO SITE-->
+<header class="container-fluid" id="header">
+        <nav>
+            <div class="logo">
+            <img class="img-fluid" src="/src/img/logo-in8-dev.svg" alt="logo">
+            </div>
+            <div class="mobile-menu">
+              <div class="line1"></div>
+              <div class="line2"></div>
+              <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+              <li><a href="#">cadastro</a></li>
+              <li><a href="#">lista</a></li>
+              <li><a href="#">sobre mim</a></li>
+            </ul>
+          
+        </nav>
+            <div class="container" id="titulo">
+                <h1><span>Estágio</span><br> prova de seleção</h1>
+                
+            </div>     
+</header>
+<!--CADASTRO SITE-->
+<section class="container-fluid" id="cadastro">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-12">
+            <form id="login-form">
+                <h1 class="text-center">Cadastro</h1>
+                <label class="form-group">
+                    <input type="text" class="form-control" required="" value="Fulano Bealtrano de Oliveira da Silva">
+                    <span>Nome</span>
+                </label>
+                <label class="form-group">
+                    <input type="text" class="form-control" required="" value="fulanobos@gmail.com">
+                    <span>E-Mail</span>
+                </label>
+                <label class="form-group">
+                    <input type="text" class="form-control" required="" value="13/10/1995">
+                    <span>E-Mail</span>
+                </label>
+                <label class="form-group">
+                    <input type="tel" class="form-control" required="" value="(31) 9 9666-1111">
+                    <span>Telefone</span>
+                </label>
+                <button type="submit" class="btn btn-primary" id="button">CADASTRAR</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!--LISTA DE CADASTRO SITE-->   
+ <section class="container-fluid mb-5" id="cadastro-site">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-12">
+            <h1 class="text-center mb-5 mp-5">Lista de cadastro</h1>
+            <div class="table-responsive-md">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th class="text-center">NOME</th>
+                        <th class="text-center">E-MAIL</th>
+                        <th class="text-center">NASCIMENTO</th>
+                        <th class="text-center">TELEFONE</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Fulano Bealtrano de <br> Oliveira da Silva</td>
+                        <td>fulanobos@gmail.com</td>
+                        <td>13/10/1995</td>
+                        <td>(31)9 9666-1111</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="mobile-hide">
+                <table>
+                    <thead>
+                    <tr>
+                        <th class="text-center">1</th>
+                        
+                    </tr>
+                    </thead>
+                    <tr>
+                        <td data-title="nome"><span id="titulos-table">Nome</span> Fulano Bealtrano de 
+                            Oliveira da Silva </td>
+                        <td data-title="E-mail"><span id="titulos-table">E-mail</span>fulanobos@gmail.com</td>
+                        <td data-title="nascimento"><span id="titulos-table">Nasc</span>13/10/1995</td>
+                        <td data-title="Telefone"><span id="titulos-table">Tel</span>(31)9 9666-1111</td>                     
+                    </tr>   
+                </table>
+            </div>
+        </div>
+    </div>
+ </section>
+<!--FOOTER SITE-->
+<footer class="container-fluid" id="footer">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-12">
+        
+            <p class="text-center">
+                Fulano Bealtrano de Oliveira da Silva <br>
+                fulanobos@gmail.com <br>
+                (31)9 9666-1111 <br>
+                Faculdade de Belo Horizonte <br>
+            </p> 
+        </div>    
+    </div>    
+</footer>
+<script src="/src/Script.js"></script>
+</body>
+</html>
