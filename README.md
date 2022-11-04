@@ -10,7 +10,7 @@ Versões disponíveis em desktop e mobile.
 
 ## 📁 Acesso ao projeto
 
-Você pode **visualizar** o projeto do site [aqui](https://timely-crumble-84a3c7.netlify.app).
+Você pode **visualizar** o projeto do site [aqui](https://in8-desenvolvimento-site.netlify.app).
 
 
 
